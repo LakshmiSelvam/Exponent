@@ -1,0 +1,400 @@
+body {
+    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://exponentwptheme.com/finance/wp-content/uploads/sites/19/2018/09/Home-Hero-IMG.jpg");
+min-height: 750px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.navbar {
+  overflow: hidden;
+  background-color:transparent;
+  padding-top:1%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:transparent;
+  color:green;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.topnav-centered a{
+  float: none;
+  position: absolute;
+  left: 45%;
+  font-size:20px;
+  /* transform: translate(-50%, -50%); */
+  
+}
+.navbar-right {
+  float: right;
+}
+.navbar-right button {
+  background-color: #4CAF50;
+  padding:0px 40px;
+ position: relative;
+ display: inline-block;
+
+  
+}
+.navbar-right button:hover {
+  background-color: white;
+  color:green;
+}
+.navbar a:hover {
+  
+  color:#4CAF50;
+}
+
+.navbar a.active {
+  color: #4CAF50;
+  
+}
+.cons button{
+  background-color: #4CAF50;
+  padding:16px 32px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  
+}
+.cons button:hover{
+  background-color: white;
+  color:green;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color:transparent;
+  text-align: center;
+  padding: 100px 20px;
+  font-size: 50px;
+}
+
+.item1 {
+  grid-row: 1 / span 2;
+}
+.grid-container .item2 {
+  /* box-shadow: inset 0 -3px 0 -1px #FFF986; */
+  transition: box-shadow .5s ease-in-out;
+  color: black;
+  line-height: 40px;
+  overflow: hidden;
+  
+}
+.grid-container .item2:hover{
+  /* background-color:green; */
+  color:white;
+  box-shadow: inset 0 -340px 0 -10px #30F837;
+}
+.grid-container .item4{
+  /* box-shadow: inset 0 -3px 0 -1px #FFF986; */
+  transition: box-shadow .5s ease-in-out;
+  color: black;
+  line-height: 40px;
+  overflow: hidden;
+  
+}
+.grid-container .item4:hover{
+  /* background-color:green; */
+  color:white;
+  box-shadow: inset 0 -340px 0 -10px #30F837;
+}
+.grid-container .item5 {
+  /* box-shadow: inset 0 -3px 0 -1px #FFF986; */
+  transition: box-shadow .5s ease-in-out;
+  color: black;
+  line-height: 40px;
+  overflow: hidden;
+  
+}
+.grid-container .item5:hover{
+  /* background-color:green; */
+  color:white;
+  box-shadow: inset 0 -340px 0 -10px #30F837;
+}
+.grid-container .item7 {
+  /* box-shadow: inset 0 -3px 0 -1px #FFF986; */
+  transition: box-shadow .5s ease-in-out;
+  color: black;
+  line-height: 40px;
+  overflow: hidden;
+  
+}
+.grid-container .item7:hover{
+  /* background-color:green; */
+  color:white;
+  box-shadow: inset 0 -340px 0 -10px #30F837;
+}
+
+/* part 3 */
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: -.100px;
+  background-color: transparent;
+  padding: 40px;
+}
+
+.grid-container1 > div {
+  background-color:transparent;
+  text-align: center;
+  padding: 100px 20px;
+  font-size: 50px;
+}
+
+.item11 {
+  grid-row: 1/ span 2;
+}
+ .grid-container1 .item13  .btn:hover{
+  background-color: #30F837;
+  color: whitesmoke;
+}
+.grid-container1 .item11:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.0);
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+.learn:hover{
+ color:lightgreen;
+ 
+}
+/* forth  */
+.forth {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: -.100px;
+  background-color: transparent;
+  padding: 40px;
+}
+
+.fourth > div {
+  background-color:transparent;
+  text-align: center;
+  padding: 100px 20px;
+  font-size: 50px;
+}
+
+.item21 {
+  grid-row: 1/ span 2;
+}
+/* 5th part */
+.mouse {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: -.100px;
+  background-color: transparent;
+  padding: 40px;
+}
+
+.mouse > div {
+  background-color:transparent;
+  text-align: center;
+  padding: 100px 20px;
+  
+}
+
+.item51 {
+  grid-row: 1/ span 2;
+}
+.seventh {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.seventh > div {
+  background-color:transparent;
+  text-align: center;
+  padding: 100px 20px;
+  font-size: 50px;
+}
+
+.item71 {
+  grid-row: 2 / span 2;
+}
+.wrapper
+{
+  display: flex;
+}
+
+.wrapper div
+{
+  width: 350px;
+  height: 150px;
+  background-color: blue;
+  margin: 10px;
+}
+.wrapper .class1 {
+  background-color:whitesmoke;
+}
+.wrapper .class2{
+  background-color:rgb(72, 243, 72);
+}
+
+/* 8th */
+.eight{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img5.jpg");
+  min-height: 750px;
+  margin:50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .wrap
+{
+  display: flex;
+}
+
+.wrap div
+{
+
+  width: 500px;
+  height: 350px;
+  background-color: white;
+  
+}
+.wra
+{
+  padding-left: 1%;
+  display: flex;
+}
+
+.wra div
+{
+  
+  /* background-color: blue; */
+  margin: 10px;
+}
+.nine-box:hover{
+ color:lightgreen;
+}
+/* 11th start */
+input[type=text], select, textarea {
+  padding-left: 50px;
+  width: 100%;
+
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  background-color: #f2f2f2; border-radius: 5px;
+ 
+  padding: 20px;
+}
+/* footer */
+.footer
+{
+  display: flex;
+}
+
+.footer div
+{
+  width: 500px;
+  height: 400px;
+  background-color:transparent;
+  margin: 10px;
+}
+.ftr:hover{
+  color: #30F837;
+}
+
+.b button{
+  background-color: #4CAF50;
+  padding:16px 32px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  
+}
+.b button:hover{
+  background-color: black;
+
+}
